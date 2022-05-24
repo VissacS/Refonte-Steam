@@ -1,0 +1,138 @@
+// fichier de variables custom
+@import "./includes/styles";
+// Bootstrap and its default variables
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+//CUSTOM CSS
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: $secondary;
+}
+
+#logo {
+   
+    height: 50px;
+    
+}
+
+.AVENTURE {
+    margin-top: 100px;
+}
+
+.star {
+    height: 20px;
+    width: 20px;
+}
+
+.star2 {
+    height: 24px;
+    width: 24px;
+}
+
+
+.profil {
+    width: 42px;
+    height: 42px;
+}
+
+#valve {
+    width: 176px;
+    height: 50px;
+}
+
+#steam {
+    width: 210px;
+    height: 46px;
+}
+
+.navbar {
+    height: 100px;
+}
+
+#date {
+    font-size: 20px;
+    color: $light;
+    text-align: center;
+}
+
+h1 {
+    color: $light;
+    text-align: center;
+    font-family: $font-family-sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    color: $light;
+    font-family: $font-family-sans-serif;
+    font-weight: bold;
+}
+
+.ffss {
+    color: $light;
+    font-family: $font-family-sans-serif;
+}
+
+.btn-primary {
+    color: $light;
+    font-family: $font-family-sans-serif;
+}
+
+.para {
+    color: $light;
+    text-align: center;
+    font-family: $font-family-sans-serif;
+}
+
+.resc {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: stretch;
+	align-content: flex-end;
+    width: 24px;
+    height: 24px;
+    margin-left: auto;
+}
+
+.bordure {
+    border: 1px solid $primary;
+}
+
+.troisf {
+    transform: rotate(90deg);
+}
+
+.resc2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: stretch;
+	align-content: flex-end;
+  
+    margin-left: auto;
+}
+
+.resc3 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: stretch;
+	align-content: flex-end;
+    width: 38px;
+    height: 59px;
+    margin-left: auto;
+    padding:17px 5px;
+}
+
+.dropdown-menu {
+    font-family: $font-family-sans-serif;
+    background-color: $light;
+}
